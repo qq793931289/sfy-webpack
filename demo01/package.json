@@ -1,0 +1,11 @@
+{
+	"scripts": 
+	{ 
+	　　"start":"webpack-dev-server --inline",//注意：不写--hot，否则浏览器无法自动更新
+	},
+	"devDependencies": {
+		"webpack": "^4.29.6",
+		"webpack-cli": "^3.3.0",
+		"webpack-dev-server": "^3.2.1"
+	}
+}
